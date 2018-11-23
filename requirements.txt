@@ -1,0 +1,7 @@
+boto3
+bs4
+python-twitter
+requests
+selenium
+selenium-requests
+unidecode
