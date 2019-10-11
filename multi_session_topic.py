@@ -51,7 +51,7 @@ soup = BeautifulSoup(r.text, "html.parser")
 
 topic_ids = []
 
-topics = soup.find("div", id="profileItem_10240_tr")
+topics = soup.find("div", id="profileItem_19577_tr")
 topics = topics.find("div", class_="formContent")
 topics = topics.find_all("input")
 for t in topics:
