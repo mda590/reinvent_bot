@@ -33,9 +33,12 @@ import requests
 import sys
 
 # Get Topic ID from an environment variable
-TOPIC = os.getenv('REINVENT_TOPIC_ID', 'NOT_SET')
+topic = os.getenv('REINVENT_TOPIC_ID', 'NOT_SET')
 
-if TOPIC == 'NOT_SET':
+# Used for grouping runs across distributed execution environments
+execution_timestamp = os.getenv('REINVENT_EXEC_TIMESTAMP', 'NOT_SET')
+
+if topic == 'NOT_SET':
     sys.exit(1)
 
 BOT_MODE = os.getenv('REINVENT_BOT_MODE', 'False')
@@ -43,9 +46,6 @@ BOT_MODE = True if BOT_MODE == 'True' else False
 
 TWEET = os.getenv('REINVENT_TWEET', 'False')
 TWEET = True if TWEET == 'True' else False
-
-# Used for grouping runs across distributed execution environments
-execution_timestamp = os.getenv('REINVENT_EXEC_TIMESTAMP', 'NOT_SET')
 
 # Set to False to ignore SSL certificate validation in Requests package
 REQ_VERIFY = True
@@ -58,6 +58,8 @@ bot = ReinventBot() if BOT_MODE else ""
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument("--no-sandbox")
+userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.50 Safari/537.36 Edg/78.0.276.17"
+chrome_options.add_argument(f"--user-agent={userAgent}")
 content_to_parse = ''
 
 driver = webdriver.Chrome(chrome_options=chrome_options)
@@ -73,7 +75,7 @@ def login(chrome_driver, username, password):
     password_field = chrome_driver.find_element_by_id("loginPassword")
     password_field.send_keys(password)
     cookieAccept = chrome_driver.find_element_by_id( "cookieAgreementAcceptButton" )
-    cookieAccept.click()    
+    cookieAccept.click()
     login_button = chrome_driver.find_element_by_id("loginButton")
     login_button.click()
 
@@ -96,7 +98,10 @@ def get_session_time(session_id):
         "page": "%2Fconnect%2Fsearch.ww",
         "scriptSessionId": "aa$GdZcE0UHnrOn2rs*Baug1rnm/JuuLapm-fcKKw5gVn"
     }
-    headers = {'Content-Type': 'text/plain'}
+    headers = {
+        'Content-Type': 'text/plain',
+        'User-Agent': userAgent
+    }
     r = requests.post(url, headers=headers, data=data, verify=REQ_VERIFY)
     returned = r.content
     returned = returned.decode('utf-8').replace("\\", '')
@@ -123,13 +128,16 @@ def get_session_time(session_id):
             "start_time": "FALSE",
             "end_time": "FALSE",
             "room": "FALSE"
-        }        
+        }
 
     return time_information
 
 try:
     # Login to the reinvent website
-    login(driver, USERNAME, PASSWORD)
+    try:
+        login(driver, USERNAME, PASSWORD)
+    except:
+        print("Authentication unsuccessful. Going forth as unauthenticated")
 
     # Getting content by topic, instead of the entire set, because sometimes the
     # Get More Results link stops working on the full list. Haven't had issues
@@ -137,12 +145,12 @@ try:
 
     driver.get("https://www.portal.reinvent.awsevents.com/connect/search.ww")
 
-    checkBox = driver.find_element_by_css_selector("input[value='{}']".format(TOPIC))
+    checkBox = driver.find_element_by_css_selector("input[value='{}']".format(topic))
     checkBox.location_once_scrolled_into_view
     checkBox.send_keys(Keys.SPACE)
 
     sleep(3)
-    print ("Getting Content for Topic Code: " + str(TOPIC))
+    print ("Getting Content for Topic Code: " + str(topic))
     more_results = True
 
     # Click through all of the session results pages for a specific topic.
@@ -197,7 +205,7 @@ try:
         session_title = unidecode(session_title)
 
         session_timing = get_session_time(session_id)
-        
+
         session_number = session_soup.find("span", class_="abbreviation")
         session_number = session_number.string.replace(" - ", "")
 
@@ -231,8 +239,7 @@ try:
                     session_info['version'] = "1"
                     bot.store_session(session_info)
                     if TWEET:
-                        tweet = "NEW AWS #reInvent session: {!s} - {!s}".format(session_info['session_number'], \
-                             session_info['session_title'])
+                        tweet = "NEW AWS #reInvent session: {!s} - {!s}".format(session_info['session_number'], \                                    session_info['session_title'])
                         print(tweet)
                         status = bot.send_tweet(tweet)
                         print(status)
@@ -242,7 +249,7 @@ try:
                     print("Session exists in table but needs to be updated!")
                     session_info['version'] = str(update)
                     bot.store_session(session_info)
-                    
+
                     if TWEET:
                         tweet = "UPDATED {!s} for #reInvent session: {!s} - {!s}".format(what_changed, \
                             session_info['session_number'], session_info['session_title'])
@@ -277,12 +284,11 @@ delta = end-start
 duration = delta.total_seconds()
 
 if BOT_MODE:
-    print("Topic ID: {}".format(TOPIC))
+    print("Topic ID: {}".format(topic))
     print("Execution Timestamp: {}".format(execution_timestamp))
     print("Status: {}".format(status))
     print("Duration: {}".format(duration))
-    bot.log_execution(TOPIC, execution_timestamp, status, str(duration))
+    bot.log_execution(topic, execution_timestamp, status, str(duration))
 
 print("Start {}".format(start))
 print("End {}".format(end))
-
