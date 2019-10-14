@@ -10,7 +10,7 @@ ecs_client = boto3.client('ecs')
 def submit_to_fargate(topic_id, execution_timestamp):
     response = ecs_client.run_task(
         cluster='fargate',
-        taskDefinition='arn:aws:ecs:us-east-2:506666621600:task-definition/reinvent_bot_2018:1',
+        taskDefinition='arn:aws:ecs:us-east-2:506666621600:task-definition/reinvent_bot_2019:1',
         overrides={
             'containerOverrides': [
                 {
@@ -50,7 +50,11 @@ def submit_to_fargate(topic_id, execution_timestamp):
 
 def lambda_handler(event, context):
     execution_timestamp = str(datetime.now())
-    r = requests.get("https://www.portal.reinvent.awsevents.com/connect/search.ww")
+    userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.50 Safari/537.36 Edg/78.0.276.17"
+    headers = {
+        'User-Agent': userAgent
+    }
+    r = requests.get("https://www.portal.reinvent.awsevents.com/connect/search.ww", headers=headers)
 
     soup = BeautifulSoup(r.text, "html.parser")
 
