@@ -61,6 +61,9 @@ for t in topics:
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument("--no-sandbox")
+# Added userAgent for 2019! re:invent website returns 403 error code whenever any request is sent without a useragent specified
+userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.50 Safari/537.36 Edg/78.0.276.17"
+chrome_options.add_argument(f"--user-agent={userAgent}")
 content_to_parse = ''
 
 driver = webdriver.Chrome(chrome_options=chrome_options)
@@ -76,7 +79,7 @@ def login(chrome_driver, username, password):
     password_field = chrome_driver.find_element_by_id("loginPassword")
     password_field.send_keys(password)
     cookieAccept = chrome_driver.find_element_by_id( "cookieAgreementAcceptButton" )
-    cookieAccept.click()    
+    cookieAccept.click()
     login_button = chrome_driver.find_element_by_id("loginButton")
     login_button.click()
 
@@ -99,7 +102,10 @@ def get_session_time(session_id):
         "page": "%2Fconnect%2Fsearch.ww",
         "scriptSessionId": "aa$GdZcE0UHnrOn2rs*Baug1rnm/JuuLapm-fcKKw5gVn"
     }
-    headers = {'Content-Type': 'text/plain'}
+    headers = {
+        'Content-Type': 'text/plain',
+        'User-Agent': userAgent
+    }
     r = requests.post(url, headers=headers, data=data, verify=REQ_VERIFY)
     returned = r.content
     returned = returned.decode('utf-8').replace("\\", '')
@@ -126,7 +132,7 @@ def get_session_time(session_id):
             "start_time": "FALSE",
             "end_time": "FALSE",
             "room": "FALSE"
-        }        
+        }
 
     return time_information
 
@@ -199,7 +205,7 @@ for session in sessions:
     session_title = unidecode(session_title)
 
     session_timing = get_session_time(session_id)
-    
+
     session_number = session_soup.find("span", class_="abbreviation")
     session_number = session_number.string.replace(" - ", "")
 
@@ -244,7 +250,7 @@ for session in sessions:
                 print("Session exists in table but needs to be updated!")
                 session_info['version'] = str(update)
                 bot.store_session(session_info)
-                
+
                 if TWEET:
                     tweet = "UPDATED {!s} for #reInvent session: {!s} - {!s}".format(what_changed, \
                         session_info['session_number'], session_info['session_title'])
