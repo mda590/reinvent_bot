@@ -34,3 +34,4 @@ With the launch of the new re:Invent catalog in 2021, there are some exciting ch
 - The Session data is stored in a GraphQL database and accessible via a simple API call.
 - The GraphQL data is protected by credentials provided when authenticating with Cognito, available via each user's specific login to the portal.
 - Once the GraphQL token is retrieved from Cognito, the sessions list is pulled via a few simple API calls
+- The `example_sessions_api_response.json` file contains example session data as it is returned from the API.

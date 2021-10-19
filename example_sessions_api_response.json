@@ -1,0 +1,1664 @@
+{
+    "data": {
+        "listSessions": {
+            "results": [
+                {
+                    "action": "NO_SEATING",
+                    "alias": "GMD201-R2",
+                    "createdAt": 1631225631660,
+                    "description": "AWS GameDays are collaborative learning exercises that test your skills as you implement AWS solutions to solve real-world problems in a gamified, risk-free environment. They’re a completely hands-on opportunity for technical professionals to explore AWS services, architecture patterns, best practices, and group cooperation. This particular GameDay focuses on sustainability best practices and teaches AWS users how to be mindful of energy efficiency in their AWS infrastructure. Attendees can expect to get hands-on with AWS services such as Amazon Athena, Amazon S3, Amazon EC2 Auto Scaling, and more.",
+                    "duration": 270,
+                    "endTime": null,
+                    "eventId": "b84dca69-6995-4e60-bc3f-7bb7a6d170d1",
+                    "isConflicting": {
+                        "reserved": [],
+                        "waitlisted": [],
+                        "__typename": "SessionConflicts"
+                    },
+                    "isEmbargoed": false,
+                    "isFavoritedByMe": false,
+                    "isPaidSession": false,
+                    "level": "intermediate",
+                    "location": null,
+                    "myReservationStatus": "NONE",
+                    "name": "AWS GameDay—Reuse, Recycle, Reduce, Rearchitect [REPEAT]",
+                    "sessionId": "6bf26a35-ef53-4a61-84a0-a10bee4bdbf6",
+                    "startTime": 1638459900000,
+                    "status": "published",
+                    "type": "breakout",
+                    "capacities": {
+                        "reservableRemaining": 150,
+                        "waitlistRemaining": 50,
+                        "__typename": "SessionCapacity"
+                    },
+                    "customFieldDetails": [
+                        {
+                            "name": "AWS Service",
+                            "type": "MULTI_SELECT",
+                            "visibility": "PUBLIC",
+                            "fieldId": "6a1cd3ce-4892-433f-81a8-c011cfa642d1",
+                            "values": [
+                                {
+                                    "fieldOptionId": "9a8fd46d-020b-4fb2-a587-759de5e94b2b",
+                                    "name": "Amazon Elastic Compute Cloud (Amazon EC2)",
+                                    "__typename": "CustomFieldOptionValue"
+                                },
+                                {
+                                    "fieldOptionId": "b6a41483-7642-4d23-9816-6020f9578619",
+                                    "name": "Amazon Athena",
+                                    "__typename": "CustomFieldOptionValue"
+                                },
+                                {
+                                    "fieldOptionId": "dc7406d9-15f6-4b0f-9900-6d796594fbd6",
+                                    "name": "AWS Glue",
+                                    "__typename": "CustomFieldOptionValue"
+                                }
+                            ],
+                            "__typename": "CustomFieldValueMultiSelect"
+                        },
+                        {
+                            "name": "Topic / Industry",
+                            "type": "MULTI_SELECT",
+                            "visibility": "PUBLIC",
+                            "fieldId": "3a0dc247-a513-4a0a-a6fb-9298faa87be8",
+                            "values": [
+                                {
+                                    "fieldOptionId": "06d1cab3-007b-4a20-a3ea-4115837b4ed4",
+                                    "name": "DevOps",
+                                    "__typename": "CustomFieldOptionValue"
+                                },
+                                {
+                                    "fieldOptionId": "50a5d7b9-deb2-48b5-a4d8-b3db7ec8c52b",
+                                    "name": "Environmental Protection",
+                                    "__typename": "CustomFieldOptionValue"
+                                },
+                                {
+                                    "fieldOptionId": "b1655d16-ed52-467d-a232-aa8a326c99d3",
+                                    "name": "Sustainability",
+                                    "__typename": "CustomFieldOptionValue"
+                                },
+                                {
+                                    "fieldOptionId": "0c69b009-f376-4966-92da-363d20cf91ae",
+                                    "name": "Software & Internet",
+                                    "__typename": "CustomFieldOptionValue"
+                                }
+                            ],
+                            "__typename": "CustomFieldValueMultiSelect"
+                        },
+                        {
+                            "name": "Job Role",
+                            "type": "MULTI_SELECT",
+                            "visibility": "PUBLIC",
+                            "fieldId": "afdc787a-6e0e-45c2-9113-c979ae2b61fd",
+                            "values": [
+                                {
+                                    "fieldOptionId": "b9cc31a1-876c-451d-89aa-d8b19c83d069",
+                                    "name": "Developers",
+                                    "__typename": "CustomFieldOptionValue"
+                                },
+                                {
+                                    "fieldOptionId": "3340bb2e-081b-44f0-981e-4ef415bb81dd",
+                                    "name": "IT Professionals",
+                                    "__typename": "CustomFieldOptionValue"
+                                }
+                            ],
+                            "__typename": "CustomFieldValueMultiSelect"
+                        }
+                    ],
+                    "package": null,
+                    "price": null,
+                    "room": {
+                        "name": "Venetian C",
+                        "venue": {
+                            "name": "The Venetian",
+                            "__typename": "Venue"
+                        },
+                        "__typename": "Room"
+                    },
+                    "sessionType": {
+                        "name": "GameDay",
+                        "__typename": "SessionType"
+                    },
+                    "tracks": [],
+                    "__typename": "Session"
+                },
+                {
+                    "action": "NO_SEATING",
+                    "alias": "GMD302-R1",
+                    "createdAt": 1631225631572,
+                    "description": "AWS GameDays are collaborative learning exercises that test your skills as you implement AWS solutions to solve real-world problems in a gamified, risk-free environment. They’re a completely hands-on opportunity for technical professionals to explore AWS services, architecture patterns, best practices, and group cooperation. This GameDay focuses on security scenarios such as ransomware demands and other breaches and introduces participants to forensics that they can use to prevent and remediate events. Attendees experience a simulated environment containing common vulnerabilities that they secure using AWS services like AWS Identity and Access Management, AWS Network Firewall, AWS Backup, AWS Systems Manager, and more.",
+                    "duration": 270,
+                    "endTime": null,
+                    "eventId": "b84dca69-6995-4e60-bc3f-7bb7a6d170d1",
+                    "isConflicting": {
+                        "reserved": [],
+                        "waitlisted": [],
+                        "__typename": "SessionConflicts"
+                    },
+                    "isEmbargoed": false,
+                    "isFavoritedByMe": false,
+                    "isPaidSession": false,
+                    "level": "advanced",
+                    "location": null,
+                    "myReservationStatus": "NONE",
+                    "name": "AWS GameDay—Secure Legends [REPEAT]",
+                    "sessionId": "7ceba442-1de6-4192-823a-b5d18f2cc7e0",
+                    "startTime": 1638200700000,
+                    "status": "published",
+                    "type": "breakout",
+                    "capacities": {
+                        "reservableRemaining": 150,
+                        "waitlistRemaining": 50,
+                        "__typename": "SessionCapacity"
+                    },
+                    "customFieldDetails": [
+                        {
+                            "name": "AWS Service",
+                            "type": "MULTI_SELECT",
+                            "visibility": "PUBLIC",
+                            "fieldId": "6a1cd3ce-4892-433f-81a8-c011cfa642d1",
+                            "values": [
+                                {
+                                    "fieldOptionId": "7b7a5a36-629a-484c-ad1f-d86e4dfa8322",
+                                    "name": "AWS Network Firewall",
+                                    "__typename": "CustomFieldOptionValue"
+                                },
+                                {
+                                    "fieldOptionId": "b987f48a-edc1-424c-9095-ddd994f2ab99",
+                                    "name": "AWS Identity and Access Management (IAM)",
+                                    "__typename": "CustomFieldOptionValue"
+                                },
+                                {
+                                    "fieldOptionId": "ae216b33-7890-429f-b0b2-b67a2f8b96eb",
+                                    "name": "AWS Backup",
+                                    "__typename": "CustomFieldOptionValue"
+                                }
+                            ],
+                            "__typename": "CustomFieldValueMultiSelect"
+                        },
+                        {
+                            "name": "Topic / Industry",
+                            "type": "MULTI_SELECT",
+                            "visibility": "PUBLIC",
+                            "fieldId": "3a0dc247-a513-4a0a-a6fb-9298faa87be8",
+                            "values": [
+                                {
+                                    "fieldOptionId": "06d1cab3-007b-4a20-a3ea-4115837b4ed4",
+                                    "name": "DevOps",
+                                    "__typename": "CustomFieldOptionValue"
+                                },
+                                {
+                                    "fieldOptionId": "0c69b009-f376-4966-92da-363d20cf91ae",
+                                    "name": "Software & Internet",
+                                    "__typename": "CustomFieldOptionValue"
+                                },
+                                {
+                                    "fieldOptionId": "f571c330-df0b-4bff-b008-75384cfa1ad9",
+                                    "name": "Security, Compliance, and Identity",
+                                    "__typename": "CustomFieldOptionValue"
+                                },
+                                {
+                                    "fieldOptionId": "6f945028-dfde-4fed-9b4d-3b10d6f7dffd",
+                                    "name": "Aerospace & Defense",
+                                    "__typename": "CustomFieldOptionValue"
+                                }
+                            ],
+                            "__typename": "CustomFieldValueMultiSelect"
+                        },
+                        {
+                            "name": "Job Role",
+                            "type": "MULTI_SELECT",
+                            "visibility": "PUBLIC",
+                            "fieldId": "afdc787a-6e0e-45c2-9113-c979ae2b61fd",
+                            "values": [
+                                {
+                                    "fieldOptionId": "3340bb2e-081b-44f0-981e-4ef415bb81dd",
+                                    "name": "IT Professionals",
+                                    "__typename": "CustomFieldOptionValue"
+                                },
+                                {
+                                    "fieldOptionId": "4d0f3bb3-a50e-45a4-bade-e49b8725d9f9",
+                                    "name": "InfoSec",
+                                    "__typename": "CustomFieldOptionValue"
+                                }
+                            ],
+                            "__typename": "CustomFieldValueMultiSelect"
+                        }
+                    ],
+                    "package": null,
+                    "price": null,
+                    "room": {
+                        "name": "Venetian C",
+                        "venue": {
+                            "name": "The Venetian",
+                            "__typename": "Venue"
+                        },
+                        "__typename": "Room"
+                    },
+                    "sessionType": {
+                        "name": "GameDay",
+                        "__typename": "SessionType"
+                    },
+                    "tracks": [],
+                    "__typename": "Session"
+                },
+                {
+                    "action": "NO_SEATING",
+                    "alias": "GMD302-R2",
+                    "createdAt": 1631225630762,
+                    "description": "AWS GameDays are collaborative learning exercises that test your skills as you implement AWS solutions to solve real-world problems in a gamified, risk-free environment. They’re a completely hands-on opportunity for technical professionals to explore AWS services, architecture patterns, best practices, and group cooperation. This GameDay focuses on security scenarios such as ransomware demands and other breaches and introduces participants to forensics that they can use to prevent and remediate events. Attendees experience a simulated environment containing common vulnerabilities that they secure using AWS services like AWS Identity and Access Management, AWS Network Firewall, AWS Backup, AWS Systems Manager, and more.",
+                    "duration": 270,
+                    "endTime": null,
+                    "eventId": "b84dca69-6995-4e60-bc3f-7bb7a6d170d1",
+                    "isConflicting": {
+                        "reserved": [],
+                        "waitlisted": [],
+                        "__typename": "SessionConflicts"
+                    },
+                    "isEmbargoed": false,
+                    "isFavoritedByMe": false,
+                    "isPaidSession": false,
+                    "level": "advanced",
+                    "location": null,
+                    "myReservationStatus": "NONE",
+                    "name": "AWS GameDay—Secure Legends [REPEAT]",
+                    "sessionId": "f6a452e6-2517-47a9-b423-d634f501a690",
+                    "startTime": 1638395100000,
+                    "status": "published",
+                    "type": "breakout",
+                    "capacities": {
+                        "reservableRemaining": 180,
+                        "waitlistRemaining": 50,
+                        "__typename": "SessionCapacity"
+                    },
+                    "customFieldDetails": [
+                        {
+                            "name": "AWS Service",
+                            "type": "MULTI_SELECT",
+                            "visibility": "PUBLIC",
+                            "fieldId": "6a1cd3ce-4892-433f-81a8-c011cfa642d1",
+                            "values": [
+                                {
+                                    "fieldOptionId": "5a425895-d51c-4ef3-a960-82f1ad110957",
+                                    "name": "Amazon Kinesis Data Analytics",
+                                    "__typename": "CustomFieldOptionValue"
+                                },
+                                {
+                                    "fieldOptionId": "ee74a3aa-1821-4655-aab5-d3e05f4d8ff0",
+                                    "name": "Amazon FinSpace",
+                                    "__typename": "CustomFieldOptionValue"
+                                },
+                                {
+                                    "fieldOptionId": "396f2a25-7ebe-4c30-a566-91e23eca7f0b",
+                                    "name": "Amazon Comprehend",
+                                    "__typename": "CustomFieldOptionValue"
+                                }
+                            ],
+                            "__typename": "CustomFieldValueMultiSelect"
+                        },
+                        {
+                            "name": "Topic / Industry",
+                            "type": "MULTI_SELECT",
+                            "visibility": "PUBLIC",
+                            "fieldId": "3a0dc247-a513-4a0a-a6fb-9298faa87be8",
+                            "values": [
+                                {
+                                    "fieldOptionId": "83cb473a-b20f-483e-9693-e37d2db89101",
+                                    "name": "Analytics",
+                                    "__typename": "CustomFieldOptionValue"
+                                },
+                                {
+                                    "fieldOptionId": "af27533b-9d5d-48a2-bb6a-5e2773366046",
+                                    "name": "Architecture",
+                                    "__typename": "CustomFieldOptionValue"
+                                },
+                                {
+                                    "fieldOptionId": "bdb31697-a457-4188-9c2c-91fd97868e35",
+                                    "name": "Financial Services",
+                                    "__typename": "CustomFieldOptionValue"
+                                },
+                                {
+                                    "fieldOptionId": "0c69b009-f376-4966-92da-363d20cf91ae",
+                                    "name": "Software & Internet",
+                                    "__typename": "CustomFieldOptionValue"
+                                }
+                            ],
+                            "__typename": "CustomFieldValueMultiSelect"
+                        },
+                        {
+                            "name": "Job Role",
+                            "type": "MULTI_SELECT",
+                            "visibility": "PUBLIC",
+                            "fieldId": "afdc787a-6e0e-45c2-9113-c979ae2b61fd",
+                            "values": [
+                                {
+                                    "fieldOptionId": "3340bb2e-081b-44f0-981e-4ef415bb81dd",
+                                    "name": "IT Professionals",
+                                    "__typename": "CustomFieldOptionValue"
+                                },
+                                {
+                                    "fieldOptionId": "88b16081-cc1f-435a-91dc-0a6da4124024",
+                                    "name": "Data Analyst/Engineer",
+                                    "__typename": "CustomFieldOptionValue"
+                                }
+                            ],
+                            "__typename": "CustomFieldValueMultiSelect"
+                        }
+                    ],
+                    "package": null,
+                    "price": null,
+                    "room": {
+                        "name": "Venetian C",
+                        "venue": {
+                            "name": "The Venetian",
+                            "__typename": "Venue"
+                        },
+                        "__typename": "Room"
+                    },
+                    "sessionType": {
+                        "name": "GameDay",
+                        "__typename": "SessionType"
+                    },
+                    "tracks": [],
+                    "__typename": "Session"
+                },
+                {
+                    "action": "NO_SEATING",
+                    "alias": "IOT311",
+                    "createdAt": 1631133229854,
+                    "description": "In this chalk talk, learn about the different methods to connect and provision IoT devices to the AWS Cloud, so you can make the best decision for your use case. Dive deep into best practices for multi-account registration. Then, learn about claim certificates for provisioning devices at scale, and find out the differences between just-in-time provisioning, bulk registration, and fleet provisioning. Finally, discover how to set up IoT devices with certain certificates and policies to help ensure they�re following the security principle of least privilege.",
+                    "duration": 60,
+                    "endTime": null,
+                    "eventId": "b84dca69-6995-4e60-bc3f-7bb7a6d170d1",
+                    "isConflicting": {
+                        "reserved": [],
+                        "waitlisted": [],
+                        "__typename": "SessionConflicts"
+                    },
+                    "isEmbargoed": false,
+                    "isFavoritedByMe": false,
+                    "isPaidSession": null,
+                    "level": "advanced",
+                    "location": null,
+                    "myReservationStatus": "NONE",
+                    "name": "AWS IoT device connectivity and provisioning",
+                    "sessionId": "f0f6516c-e551-4e33-b8de-f78c70e6e064",
+                    "startTime": 1638486900000,
+                    "status": "published",
+                    "type": "breakout",
+                    "capacities": {
+                        "reservableRemaining": 56,
+                        "waitlistRemaining": 50,
+                        "__typename": "SessionCapacity"
+                    },
+                    "customFieldDetails": [
+                        {
+                            "name": "AWS Service",
+                            "type": "MULTI_SELECT",
+                            "visibility": "PUBLIC",
+                            "fieldId": "6a1cd3ce-4892-433f-81a8-c011cfa642d1",
+                            "values": [
+                                {
+                                    "fieldOptionId": "1fdead2a-0b4b-411a-9699-4b3f83917ef6",
+                                    "name": "AWS IoT Core",
+                                    "__typename": "CustomFieldOptionValue"
+                                }
+                            ],
+                            "__typename": "CustomFieldValueMultiSelect"
+                        },
+                        {
+                            "name": "Topic / Industry",
+                            "type": "MULTI_SELECT",
+                            "visibility": "PUBLIC",
+                            "fieldId": "3a0dc247-a513-4a0a-a6fb-9298faa87be8",
+                            "values": [
+                                {
+                                    "fieldOptionId": "3f302656-c35a-468a-95a6-b33ada461928",
+                                    "name": "Cloud Operations",
+                                    "__typename": "CustomFieldOptionValue"
+                                },
+                                {
+                                    "fieldOptionId": "42dccd5d-9d96-4112-a379-b23972d6e3c4",
+                                    "name": "Transportation & Logistics",
+                                    "__typename": "CustomFieldOptionValue"
+                                },
+                                {
+                                    "fieldOptionId": "c297d4c4-94ee-45fb-adf4-3da215e8f4e5",
+                                    "name": "Consumer/Packaged Goods",
+                                    "__typename": "CustomFieldOptionValue"
+                                },
+                                {
+                                    "fieldOptionId": "af27533b-9d5d-48a2-bb6a-5e2773366046",
+                                    "name": "Architecture",
+                                    "__typename": "CustomFieldOptionValue"
+                                }
+                            ],
+                            "__typename": "CustomFieldValueMultiSelect"
+                        },
+                        {
+                            "name": "Job Role",
+                            "type": "MULTI_SELECT",
+                            "visibility": "PUBLIC",
+                            "fieldId": "afdc787a-6e0e-45c2-9113-c979ae2b61fd",
+                            "values": [
+                                {
+                                    "fieldOptionId": "3340bb2e-081b-44f0-981e-4ef415bb81dd",
+                                    "name": "IT Professionals",
+                                    "__typename": "CustomFieldOptionValue"
+                                },
+                                {
+                                    "fieldOptionId": "b9cc31a1-876c-451d-89aa-d8b19c83d069",
+                                    "name": "Developers",
+                                    "__typename": "CustomFieldOptionValue"
+                                }
+                            ],
+                            "__typename": "CustomFieldValueMultiSelect"
+                        }
+                    ],
+                    "package": null,
+                    "price": null,
+                    "room": {
+                        "name": null,
+                        "venue": null,
+                        "__typename": "Room"
+                    },
+                    "sessionType": {
+                        "name": "Chalk Talk",
+                        "__typename": "SessionType"
+                    },
+                    "tracks": [
+                        {
+                            "name": "IoT",
+                            "__typename": "Track"
+                        }
+                    ],
+                    "__typename": "Session"
+                },
+                {
+                    "action": "NO_SEATING",
+                    "alias": "HJS201-R1",
+                    "createdAt": 1631225630762,
+                    "description": "New challenges are launched daily in the AWS Jam Lounge. Solve scenarios based on security, application modernization, DevOps, data analytics, AI/ML, and many more topics. Challenges are based on real-world situations, so come validate the skills you have and learn some new ones along the way! Sign up and then work on challenges anywhere. A live leaderboard provides updates on stats and progress. Do you have what it takes to end up at the top of the leaderboard?",
+                    "duration": 180,
+                    "endTime": null,
+                    "eventId": "b84dca69-6995-4e60-bc3f-7bb7a6d170d1",
+                    "isConflicting": {
+                        "reserved": [],
+                        "waitlisted": [],
+                        "__typename": "SessionConflicts"
+                    },
+                    "isEmbargoed": false,
+                    "isFavoritedByMe": false,
+                    "isPaidSession": null,
+                    "level": "intermediate",
+                    "location": null,
+                    "myReservationStatus": "NONE",
+                    "name": "AWS Jam Lounge [REPEAT]",
+                    "sessionId": "ff9de431-69ed-4f0c-8ccf-760731de7315",
+                    "startTime": 1638230400000,
+                    "status": "published",
+                    "type": "breakout",
+                    "capacities": {
+                        "reservableRemaining": 0,
+                        "waitlistRemaining": 50,
+                        "__typename": "SessionCapacity"
+                    },
+                    "customFieldDetails": [],
+                    "package": null,
+                    "price": null,
+                    "room": {
+                        "name": "Venetian Expo- Jams",
+                        "venue": {
+                            "name": "The Venetian",
+                            "__typename": "Venue"
+                        },
+                        "__typename": "Room"
+                    },
+                    "sessionType": {
+                        "name": "Jam",
+                        "__typename": "SessionType"
+                    },
+                    "tracks": [],
+                    "__typename": "Session"
+                },
+                {
+                    "action": "NO_SEATING",
+                    "alias": "HJS201-R2",
+                    "createdAt": 1633552104747,
+                    "description": "New challenges are launched daily in the AWS Jam Lounge. Solve scenarios based on security, application modernization, DevOps, data analytics, AI/ML, and many more topics. Challenges are based on real-world situations, so come validate the skills you have and learn some new ones along the way! Sign up and then work on challenges anywhere. A live leaderboard provides updates on stats and progress. Do you have what it takes to end up at the top of the leaderboard?",
+                    "duration": 180,
+                    "endTime": null,
+                    "eventId": "b84dca69-6995-4e60-bc3f-7bb7a6d170d1",
+                    "isConflicting": {
+                        "reserved": [],
+                        "waitlisted": [],
+                        "__typename": "SessionConflicts"
+                    },
+                    "isEmbargoed": false,
+                    "isFavoritedByMe": false,
+                    "isPaidSession": null,
+                    "level": "intermediate",
+                    "location": null,
+                    "myReservationStatus": "NONE",
+                    "name": "AWS Jam Lounge [REPEAT]",
+                    "sessionId": "2af179e0-a716-4a53-b04f-399def69a3b2",
+                    "startTime": 1638295200000,
+                    "status": "published",
+                    "type": "breakout",
+                    "capacities": {
+                        "reservableRemaining": 0,
+                        "waitlistRemaining": 50,
+                        "__typename": "SessionCapacity"
+                    },
+                    "customFieldDetails": [],
+                    "package": null,
+                    "price": null,
+                    "room": {
+                        "name": "Venetian Expo- Jams",
+                        "venue": {
+                            "name": "The Venetian",
+                            "__typename": "Venue"
+                        },
+                        "__typename": "Room"
+                    },
+                    "sessionType": {
+                        "name": "Jam",
+                        "__typename": "SessionType"
+                    },
+                    "tracks": [],
+                    "__typename": "Session"
+                },
+                {
+                    "action": "NO_SEATING",
+                    "alias": "HJS201-R3",
+                    "createdAt": 1633552106656,
+                    "description": "New challenges are launched daily in the AWS Jam Lounge. Solve scenarios based on security, application modernization, DevOps, data analytics, AI/ML, and many more topics. Challenges are based on real-world situations, so come validate the skills you have and learn some new ones along the way! Sign up and then work on challenges anywhere. A live leaderboard provides updates on stats and progress. Do you have what it takes to end up at the top of the leaderboard?",
+                    "duration": 180,
+                    "endTime": null,
+                    "eventId": "b84dca69-6995-4e60-bc3f-7bb7a6d170d1",
+                    "isConflicting": {
+                        "reserved": [],
+                        "waitlisted": [],
+                        "__typename": "SessionConflicts"
+                    },
+                    "isEmbargoed": false,
+                    "isFavoritedByMe": false,
+                    "isPaidSession": null,
+                    "level": "intermediate",
+                    "location": null,
+                    "myReservationStatus": "NONE",
+                    "name": "AWS Jam Lounge [REPEAT]",
+                    "sessionId": "806d425a-d8b6-42ff-9af0-95b84d50d195",
+                    "startTime": 1638381600000,
+                    "status": "published",
+                    "type": "breakout",
+                    "capacities": {
+                        "reservableRemaining": 0,
+                        "waitlistRemaining": 50,
+                        "__typename": "SessionCapacity"
+                    },
+                    "customFieldDetails": [],
+                    "package": null,
+                    "price": null,
+                    "room": {
+                        "name": "Venetian Expo- Jams",
+                        "venue": {
+                            "name": "The Venetian",
+                            "__typename": "Venue"
+                        },
+                        "__typename": "Room"
+                    },
+                    "sessionType": {
+                        "name": "Jam",
+                        "__typename": "SessionType"
+                    },
+                    "tracks": [],
+                    "__typename": "Session"
+                },
+                {
+                    "action": "NO_SEATING",
+                    "alias": "HJS201-R4",
+                    "createdAt": 1633552106364,
+                    "description": "New challenges are launched daily in the AWS Jam Lounge. Solve scenarios based on security, application modernization, DevOps, data analytics, AI/ML, and many more topics. Challenges are based on real-world situations, so come validate the skills you have and learn some new ones along the way! Sign up and then work on challenges anywhere. A live leaderboard provides updates on stats and progress. Do you have what it takes to end up at the top of the leaderboard?",
+                    "duration": 180,
+                    "endTime": null,
+                    "eventId": "b84dca69-6995-4e60-bc3f-7bb7a6d170d1",
+                    "isConflicting": {
+                        "reserved": [],
+                        "waitlisted": [],
+                        "__typename": "SessionConflicts"
+                    },
+                    "isEmbargoed": false,
+                    "isFavoritedByMe": false,
+                    "isPaidSession": null,
+                    "level": "intermediate",
+                    "location": null,
+                    "myReservationStatus": "NONE",
+                    "name": "AWS Jam Lounge [REPEAT]",
+                    "sessionId": "8116ef53-10bf-400d-9e01-67906f383bab",
+                    "startTime": 1638468000000,
+                    "status": "published",
+                    "type": "breakout",
+                    "capacities": {
+                        "reservableRemaining": 0,
+                        "waitlistRemaining": 50,
+                        "__typename": "SessionCapacity"
+                    },
+                    "customFieldDetails": [],
+                    "package": null,
+                    "price": null,
+                    "room": {
+                        "name": "Venetian Expo- Jams",
+                        "venue": {
+                            "name": "The Venetian",
+                            "__typename": "Venue"
+                        },
+                        "__typename": "Room"
+                    },
+                    "sessionType": {
+                        "name": "Jam",
+                        "__typename": "SessionType"
+                    },
+                    "tracks": [],
+                    "__typename": "Session"
+                },
+                {
+                    "action": "NO_SEATING",
+                    "alias": "SVS311",
+                    "createdAt": 1631740599570,
+                    "description": "AWS Lambda Extensions provides a new way to easily integrate Lambda with your favorite monitoring, observability, security, and governance tools. In this chalk talk, dive into the Lambda function lifecycle to see how extensions work. Learn how to install, configure, and run extensions, and discover common use cases where extensions can help you get more from your serverless applications. If you can't find an existing extension for what you need, learn how to build your own from scratch. This chalk talk prepares you to make the most of this new Lambda capability.",
+                    "duration": 60,
+                    "endTime": null,
+                    "eventId": "b84dca69-6995-4e60-bc3f-7bb7a6d170d1",
+                    "isConflicting": {
+                        "reserved": [],
+                        "waitlisted": [],
+                        "__typename": "SessionConflicts"
+                    },
+                    "isEmbargoed": false,
+                    "isFavoritedByMe": false,
+                    "isPaidSession": null,
+                    "level": "advanced",
+                    "location": null,
+                    "myReservationStatus": "NONE",
+                    "name": "AWS Lambda Extensions: What, why, and how",
+                    "sessionId": "b18aa8ef-86e7-4494-a016-366c739134d3",
+                    "startTime": 1638298800000,
+                    "status": "published",
+                    "type": "breakout",
+                    "capacities": {
+                        "reservableRemaining": 30,
+                        "waitlistRemaining": 50,
+                        "__typename": "SessionCapacity"
+                    },
+                    "customFieldDetails": [
+                        {
+                            "name": "AWS Service",
+                            "type": "MULTI_SELECT",
+                            "visibility": "PUBLIC",
+                            "fieldId": "6a1cd3ce-4892-433f-81a8-c011cfa642d1",
+                            "values": [
+                                {
+                                    "fieldOptionId": "1e653872-0656-46dd-affc-5faaee83828c",
+                                    "name": "AWS Lambda",
+                                    "__typename": "CustomFieldOptionValue"
+                                }
+                            ],
+                            "__typename": "CustomFieldValueMultiSelect"
+                        },
+                        {
+                            "name": "Job Role",
+                            "type": "MULTI_SELECT",
+                            "visibility": "PUBLIC",
+                            "fieldId": "afdc787a-6e0e-45c2-9113-c979ae2b61fd",
+                            "values": [
+                                {
+                                    "fieldOptionId": "b9cc31a1-876c-451d-89aa-d8b19c83d069",
+                                    "name": "Developers",
+                                    "__typename": "CustomFieldOptionValue"
+                                }
+                            ],
+                            "__typename": "CustomFieldValueMultiSelect"
+                        }
+                    ],
+                    "package": null,
+                    "price": null,
+                    "room": {
+                        "name": null,
+                        "venue": null,
+                        "__typename": "Room"
+                    },
+                    "sessionType": {
+                        "name": "Chalk Talk",
+                        "__typename": "SessionType"
+                    },
+                    "tracks": [
+                        {
+                            "name": "Serverless",
+                            "__typename": "Track"
+                        }
+                    ],
+                    "__typename": "Session"
+                },
+                {
+                    "action": "NO_SEATING",
+                    "alias": "SVS401-R1",
+                    "createdAt": 1627419008041,
+                    "description": "This chalk talk discusses what you can do to optimize your serverless applications built with AWS Lambda from the function configuration and in your function code. Learn how you can best measure and tune your function’s performance by configuring memory to get the right application performance. This chalk talk also covers best practices for pre-handler logic and reuse of information to enable fast startup and fast execution of your functions.",
+                    "duration": 60,
+                    "endTime": null,
+                    "eventId": "b84dca69-6995-4e60-bc3f-7bb7a6d170d1",
+                    "isConflicting": {
+                        "reserved": [],
+                        "waitlisted": [],
+                        "__typename": "SessionConflicts"
+                    },
+                    "isEmbargoed": false,
+                    "isFavoritedByMe": false,
+                    "isPaidSession": null,
+                    "level": "expert",
+                    "location": null,
+                    "myReservationStatus": "NONE",
+                    "name": "AWS Lambda function performance tuning [REPEAT]",
+                    "sessionId": "3df32791-957d-4ae2-9f1d-93ccdf808254",
+                    "startTime": 1638225000000,
+                    "status": "published",
+                    "type": "breakout",
+                    "capacities": {
+                        "reservableRemaining": 63,
+                        "waitlistRemaining": 50,
+                        "__typename": "SessionCapacity"
+                    },
+                    "customFieldDetails": [
+                        {
+                            "name": "AWS Service",
+                            "type": "MULTI_SELECT",
+                            "visibility": "PUBLIC",
+                            "fieldId": "6a1cd3ce-4892-433f-81a8-c011cfa642d1",
+                            "values": [
+                                {
+                                    "fieldOptionId": "1e653872-0656-46dd-affc-5faaee83828c",
+                                    "name": "AWS Lambda",
+                                    "__typename": "CustomFieldOptionValue"
+                                }
+                            ],
+                            "__typename": "CustomFieldValueMultiSelect"
+                        },
+                        {
+                            "name": "Job Role",
+                            "type": "MULTI_SELECT",
+                            "visibility": "PUBLIC",
+                            "fieldId": "afdc787a-6e0e-45c2-9113-c979ae2b61fd",
+                            "values": [
+                                {
+                                    "fieldOptionId": "b9cc31a1-876c-451d-89aa-d8b19c83d069",
+                                    "name": "Developers",
+                                    "__typename": "CustomFieldOptionValue"
+                                }
+                            ],
+                            "__typename": "CustomFieldValueMultiSelect"
+                        }
+                    ],
+                    "package": null,
+                    "price": null,
+                    "room": {
+                        "name": null,
+                        "venue": null,
+                        "__typename": "Room"
+                    },
+                    "sessionType": {
+                        "name": "Chalk Talk",
+                        "__typename": "SessionType"
+                    },
+                    "tracks": [
+                        {
+                            "name": "Serverless",
+                            "__typename": "Track"
+                        }
+                    ],
+                    "__typename": "Session"
+                },
+                {
+                    "action": "NO_SEATING",
+                    "alias": "SVS401-R2",
+                    "createdAt": 1633821482120,
+                    "description": "This chalk talk discusses what you can do to optimize your serverless applications built with AWS Lambda from the function configuration and in your function code. Learn how you can best measure and tune your function’s performance by configuring memory to get the right application performance. This chalk talk also covers best practices for pre-handler logic and reuse of information to enable fast startup and fast execution of your functions.",
+                    "duration": 60,
+                    "endTime": null,
+                    "eventId": "b84dca69-6995-4e60-bc3f-7bb7a6d170d1",
+                    "isConflicting": {
+                        "reserved": [],
+                        "waitlisted": [],
+                        "__typename": "SessionConflicts"
+                    },
+                    "isEmbargoed": false,
+                    "isFavoritedByMe": false,
+                    "isPaidSession": null,
+                    "level": "expert",
+                    "location": null,
+                    "myReservationStatus": "NONE",
+                    "name": "AWS Lambda function performance tuning [REPEAT]",
+                    "sessionId": "de6179d5-145b-4369-ba1b-7ae5ed6620d3",
+                    "startTime": 1638405900000,
+                    "status": "published",
+                    "type": "breakout",
+                    "capacities": {
+                        "reservableRemaining": 56,
+                        "waitlistRemaining": 50,
+                        "__typename": "SessionCapacity"
+                    },
+                    "customFieldDetails": [],
+                    "package": null,
+                    "price": null,
+                    "room": {
+                        "name": null,
+                        "venue": null,
+                        "__typename": "Room"
+                    },
+                    "sessionType": {
+                        "name": "Chalk Talk",
+                        "__typename": "SessionType"
+                    },
+                    "tracks": [
+                        {
+                            "name": "Serverless",
+                            "__typename": "Track"
+                        }
+                    ],
+                    "__typename": "Session"
+                },
+                {
+                    "action": "NO_SEATING",
+                    "alias": "COP208",
+                    "createdAt": 1631740599920,
+                    "description": "AWS Managed Services (AMS) helps hundreds of organizations operate their AWS infrastructure more efficiently and securely. Are you wondering how we do it? In this chalk talk, discover the AWS tools, processes, and people that AMS uses to help operate and secure the AWS infrastructure of our customers. Whether you need help from AMS or want to gain a new perspective on cloud operations, this session gives you a high-level overview of how AMS detects, investigates, and resolves issues with organizations’ AWS infrastructures while continuing to scale.",
+                    "duration": 60,
+                    "endTime": null,
+                    "eventId": "b84dca69-6995-4e60-bc3f-7bb7a6d170d1",
+                    "isConflicting": {
+                        "reserved": [],
+                        "waitlisted": [],
+                        "__typename": "SessionConflicts"
+                    },
+                    "isEmbargoed": false,
+                    "isFavoritedByMe": false,
+                    "isPaidSession": null,
+                    "level": "intermediate",
+                    "location": null,
+                    "myReservationStatus": "NONE",
+                    "name": "AWS Managed Services: Security, compliance, and operations",
+                    "sessionId": "51a00159-1d8d-41a2-9401-abff29c674c5",
+                    "startTime": 1638328500000,
+                    "status": "published",
+                    "type": "breakout",
+                    "capacities": {
+                        "reservableRemaining": 56,
+                        "waitlistRemaining": 50,
+                        "__typename": "SessionCapacity"
+                    },
+                    "customFieldDetails": [],
+                    "package": null,
+                    "price": null,
+                    "room": {
+                        "name": "Forum 108",
+                        "venue": {
+                            "name": "Caesars Forum",
+                            "__typename": "Venue"
+                        },
+                        "__typename": "Room"
+                    },
+                    "sessionType": {
+                        "name": "Chalk Talk",
+                        "__typename": "SessionType"
+                    },
+                    "tracks": [
+                        {
+                            "name": "Cloud Operations",
+                            "__typename": "Track"
+                        }
+                    ],
+                    "__typename": "Session"
+                },
+                {
+                    "action": "NO_SEATING",
+                    "alias": "HJS302-R1",
+                    "createdAt": 1631225631969,
+                    "description": "This jam provides an environment for you to try to improve applications and implement DevOps best practices. What are the limitations of the existing solution? How can you architect multiple AWS services together to improve it? Whether you are new to AWS or a cloud expert, join us to demonstrate your existing skills while learning new ones. Jams are structured to accommodate AWS users of all levels. Clues and AWS experts are available to help ramp up your application modernization and DevOps knowledge. A laptop is required to participate.",
+                    "duration": 180,
+                    "endTime": null,
+                    "eventId": "b84dca69-6995-4e60-bc3f-7bb7a6d170d1",
+                    "isConflicting": {
+                        "reserved": [],
+                        "waitlisted": [],
+                        "__typename": "SessionConflicts"
+                    },
+                    "isEmbargoed": false,
+                    "isFavoritedByMe": false,
+                    "isPaidSession": false,
+                    "level": "advanced",
+                    "location": null,
+                    "myReservationStatus": "NONE",
+                    "name": "AWS Modernization & DevOps Jam [REPEAT]",
+                    "sessionId": "b68e02de-0fa3-46c9-aa14-1933cc1fe59f",
+                    "startTime": 1638291600000,
+                    "status": "published",
+                    "type": "breakout",
+                    "capacities": {
+                        "reservableRemaining": 150,
+                        "waitlistRemaining": 50,
+                        "__typename": "SessionCapacity"
+                    },
+                    "customFieldDetails": [],
+                    "package": null,
+                    "price": null,
+                    "room": {
+                        "name": "Lafite 5",
+                        "venue": {
+                            "name": "Wynn",
+                            "__typename": "Venue"
+                        },
+                        "__typename": "Room"
+                    },
+                    "sessionType": {
+                        "name": "Jam",
+                        "__typename": "SessionType"
+                    },
+                    "tracks": [],
+                    "__typename": "Session"
+                },
+                {
+                    "action": "NO_SEATING",
+                    "alias": "HJS302-R2",
+                    "createdAt": 1631225631343,
+                    "description": "This jam provides an environment for you to try to improve applications and implement DevOps best practices. What are the limitations of the existing solution? How can you architect multiple AWS services together to improve it? Whether you are new to AWS or a cloud expert, join us to demonstrate your existing skills while learning new ones. Jams are structured to accommodate AWS users of all levels. Clues and AWS experts are available to help ramp up your application modernization and DevOps knowledge. A laptop is required to participate.",
+                    "duration": 180,
+                    "endTime": null,
+                    "eventId": "b84dca69-6995-4e60-bc3f-7bb7a6d170d1",
+                    "isConflicting": {
+                        "reserved": [],
+                        "waitlisted": [],
+                        "__typename": "SessionConflicts"
+                    },
+                    "isEmbargoed": false,
+                    "isFavoritedByMe": false,
+                    "isPaidSession": false,
+                    "level": "advanced",
+                    "location": null,
+                    "myReservationStatus": "NONE",
+                    "name": "AWS Modernization & DevOps Jam [REPEAT]",
+                    "sessionId": "f4659586-9632-43d2-b0ce-e062ec116e1c",
+                    "startTime": 1638309600000,
+                    "status": "published",
+                    "type": "breakout",
+                    "capacities": {
+                        "reservableRemaining": 150,
+                        "waitlistRemaining": 50,
+                        "__typename": "SessionCapacity"
+                    },
+                    "customFieldDetails": [],
+                    "package": null,
+                    "price": null,
+                    "room": {
+                        "name": "Lafite 5",
+                        "venue": {
+                            "name": "Wynn",
+                            "__typename": "Venue"
+                        },
+                        "__typename": "Room"
+                    },
+                    "sessionType": {
+                        "name": "Jam",
+                        "__typename": "SessionType"
+                    },
+                    "tracks": [],
+                    "__typename": "Session"
+                },
+                {
+                    "action": "NO_SEATING",
+                    "alias": "NET216-L",
+                    "createdAt": 1633552106532,
+                    "description": "AWS Networking helps enable you to run any kind of workload in the cloud. In this session, join Dave Brown, VP of Amazon EC2 Compute and Networking Services, to learn how this is possible. Dave reviews the progress AWS made in the last year across networking and content delivery solutions, which are designed to be the most secure, have the highest network availability, deliver consistent high performance, and have the broadest global coverage. Dave also discusses new capabilities and how AWS customers are using our networking services to build on the AWS comprehensive network for all workloads.",
+                    "duration": 60,
+                    "endTime": null,
+                    "eventId": "b84dca69-6995-4e60-bc3f-7bb7a6d170d1",
+                    "isConflicting": {
+                        "reserved": [],
+                        "waitlisted": [],
+                        "__typename": "SessionConflicts"
+                    },
+                    "isEmbargoed": false,
+                    "isFavoritedByMe": false,
+                    "isPaidSession": null,
+                    "level": "intermediate",
+                    "location": null,
+                    "myReservationStatus": "NONE",
+                    "name": "AWS Networking: Making all workloads possible",
+                    "sessionId": "83776074-d0df-4191-a27b-5e8f95862d76",
+                    "startTime": 1638392400000,
+                    "status": "published",
+                    "type": "breakout",
+                    "capacities": {
+                        "reservableRemaining": 1348,
+                        "waitlistRemaining": 50,
+                        "__typename": "SessionCapacity"
+                    },
+                    "customFieldDetails": [
+                        {
+                            "name": "Topic / Industry",
+                            "type": "MULTI_SELECT",
+                            "visibility": "PUBLIC",
+                            "fieldId": "3a0dc247-a513-4a0a-a6fb-9298faa87be8",
+                            "values": [
+                                {
+                                    "fieldOptionId": "368d849f-f706-4046-8579-a16b4b20061d",
+                                    "name": "Networking & Content Delivery",
+                                    "__typename": "CustomFieldOptionValue"
+                                },
+                                {
+                                    "fieldOptionId": "f06deefd-5918-4f34-b0a2-37dd896ae75c",
+                                    "name": "Compute",
+                                    "__typename": "CustomFieldOptionValue"
+                                },
+                                {
+                                    "fieldOptionId": "8e4dcfc8-e21e-426f-9443-67c34cdb6246",
+                                    "name": "IoT",
+                                    "__typename": "CustomFieldOptionValue"
+                                }
+                            ],
+                            "__typename": "CustomFieldValueMultiSelect"
+                        },
+                        {
+                            "name": "Job Role",
+                            "type": "MULTI_SELECT",
+                            "visibility": "PUBLIC",
+                            "fieldId": "afdc787a-6e0e-45c2-9113-c979ae2b61fd",
+                            "values": [
+                                {
+                                    "fieldOptionId": "df5b1ee4-45d7-44ee-922d-e8c187dd24f2",
+                                    "name": "IT Leaders",
+                                    "__typename": "CustomFieldOptionValue"
+                                },
+                                {
+                                    "fieldOptionId": "b9cc31a1-876c-451d-89aa-d8b19c83d069",
+                                    "name": "Developers",
+                                    "__typename": "CustomFieldOptionValue"
+                                }
+                            ],
+                            "__typename": "CustomFieldValueMultiSelect"
+                        }
+                    ],
+                    "package": null,
+                    "price": null,
+                    "room": {
+                        "name": "Venetian Theatre",
+                        "venue": {
+                            "name": "The Venetian",
+                            "__typename": "Venue"
+                        },
+                        "__typename": "Room"
+                    },
+                    "sessionType": {
+                        "name": "Leadership Session",
+                        "__typename": "SessionType"
+                    },
+                    "tracks": [],
+                    "__typename": "Session"
+                },
+                {
+                    "action": "NO_SEATING",
+                    "alias": "CMP311",
+                    "createdAt": 1627419007960,
+                    "description": "AWS Outposts is a fully managed service that brings AWS infrastructure and services to your environments in virtually any data center, collocation space, or on-premises facility using the same hardware, software, and management tooling used in AWS Regions. In this session, closely examine how an Outpost works, including how we modified the AWS Nitro System to work in any on-premises facility to provide a truly consistent hybrid experience.",
+                    "duration": 60,
+                    "endTime": null,
+                    "eventId": "b84dca69-6995-4e60-bc3f-7bb7a6d170d1",
+                    "isConflicting": {
+                        "reserved": [],
+                        "waitlisted": [],
+                        "__typename": "SessionConflicts"
+                    },
+                    "isEmbargoed": false,
+                    "isFavoritedByMe": false,
+                    "isPaidSession": null,
+                    "level": "advanced",
+                    "location": null,
+                    "myReservationStatus": "NONE",
+                    "name": "AWS Outposts: Bringing the AWS experience on premises",
+                    "sessionId": "3137d112-d64e-4a12-8792-dcd1ece625a0",
+                    "startTime": 1638478800000,
+                    "status": "published",
+                    "type": "breakout",
+                    "capacities": {
+                        "reservableRemaining": 155,
+                        "waitlistRemaining": 50,
+                        "__typename": "SessionCapacity"
+                    },
+                    "customFieldDetails": [
+                        {
+                            "name": "AWS Service",
+                            "type": "MULTI_SELECT",
+                            "visibility": "PUBLIC",
+                            "fieldId": "6a1cd3ce-4892-433f-81a8-c011cfa642d1",
+                            "values": [
+                                {
+                                    "fieldOptionId": "d0649166-b5f6-46cc-af19-b2500b229514",
+                                    "name": "AWS Outposts",
+                                    "__typename": "CustomFieldOptionValue"
+                                }
+                            ],
+                            "__typename": "CustomFieldValueMultiSelect"
+                        },
+                        {
+                            "name": "Topic / Industry",
+                            "type": "MULTI_SELECT",
+                            "visibility": "PUBLIC",
+                            "fieldId": "3a0dc247-a513-4a0a-a6fb-9298faa87be8",
+                            "values": [
+                                {
+                                    "fieldOptionId": "a8c77215-ae54-4744-99ff-4f4f4dfcb078",
+                                    "name": "Enterprise & Migration",
+                                    "__typename": "CustomFieldOptionValue"
+                                },
+                                {
+                                    "fieldOptionId": "e816a352-9466-4dfd-964b-70da35ef6f26",
+                                    "name": "Games/GameTech",
+                                    "__typename": "CustomFieldOptionValue"
+                                },
+                                {
+                                    "fieldOptionId": "f06deefd-5918-4f34-b0a2-37dd896ae75c",
+                                    "name": "Compute",
+                                    "__typename": "CustomFieldOptionValue"
+                                },
+                                {
+                                    "fieldOptionId": "d2b125a3-765c-43e1-b729-05e71b07bb4f",
+                                    "name": "Public Sector",
+                                    "__typename": "CustomFieldOptionValue"
+                                }
+                            ],
+                            "__typename": "CustomFieldValueMultiSelect"
+                        },
+                        {
+                            "name": "Job Role",
+                            "type": "MULTI_SELECT",
+                            "visibility": "PUBLIC",
+                            "fieldId": "afdc787a-6e0e-45c2-9113-c979ae2b61fd",
+                            "values": [
+                                {
+                                    "fieldOptionId": "8b9214aa-c91e-4154-9f64-f96409f1501e",
+                                    "name": "Chief Information Officers",
+                                    "__typename": "CustomFieldOptionValue"
+                                },
+                                {
+                                    "fieldOptionId": "05066eac-5548-4996-abd7-c7bef939e9cc",
+                                    "name": "Architect",
+                                    "__typename": "CustomFieldOptionValue"
+                                }
+                            ],
+                            "__typename": "CustomFieldValueMultiSelect"
+                        }
+                    ],
+                    "package": null,
+                    "price": null,
+                    "room": {
+                        "name": "Palazzo C",
+                        "venue": {
+                            "name": "The Venetian",
+                            "__typename": "Venue"
+                        },
+                        "__typename": "Room"
+                    },
+                    "sessionType": {
+                        "name": "Breakout Session",
+                        "__typename": "SessionType"
+                    },
+                    "tracks": [
+                        {
+                            "name": "Compute",
+                            "__typename": "Track"
+                        }
+                    ],
+                    "__typename": "Session"
+                },
+                {
+                    "action": "NO_SEATING",
+                    "alias": "TNC010",
+                    "createdAt": 1627511687470,
+                    "description": "This advanced workshop provides prescriptive guidance on how to migrate workloads at scale and covers common migration patterns and challenges of large-scale migrations. Join to learn how to identify use cases for rehosting, replatforming, and refactoring legacy applications to the AWS Cloud. Also, see how to determine which applications are good candidates for automated modernization. In addition, explore how to modernize workloads and convert legacy applications to containers by using the AWS App2Container service.",
+                    "duration": 480,
+                    "endTime": null,
+                    "eventId": "b84dca69-6995-4e60-bc3f-7bb7a6d170d1",
+                    "isConflicting": {
+                        "reserved": [],
+                        "waitlisted": [],
+                        "__typename": "SessionConflicts"
+                    },
+                    "isEmbargoed": false,
+                    "isFavoritedByMe": false,
+                    "isPaidSession": false,
+                    "level": null,
+                    "location": null,
+                    "myReservationStatus": "NONE",
+                    "name": "AWS Partner: Advanced migrating to AWS",
+                    "sessionId": "946f8f1a-729b-4e85-a8aa-e81a511beb78",
+                    "startTime": 1638205200000,
+                    "status": "published",
+                    "type": "breakout",
+                    "capacities": {
+                        "reservableRemaining": 0,
+                        "waitlistRemaining": -1,
+                        "__typename": "SessionCapacity"
+                    },
+                    "customFieldDetails": [
+                        {
+                            "name": "Topic / Industry",
+                            "type": "MULTI_SELECT",
+                            "visibility": "PUBLIC",
+                            "fieldId": "3a0dc247-a513-4a0a-a6fb-9298faa87be8",
+                            "values": [
+                                {
+                                    "fieldOptionId": "a8c77215-ae54-4744-99ff-4f4f4dfcb078",
+                                    "name": "Enterprise & Migration",
+                                    "__typename": "CustomFieldOptionValue"
+                                },
+                                {
+                                    "fieldOptionId": "9440574c-e809-429d-a092-ec78e518232c",
+                                    "name": "Global Partner Summit (GPS)",
+                                    "__typename": "CustomFieldOptionValue"
+                                }
+                            ],
+                            "__typename": "CustomFieldValueMultiSelect"
+                        },
+                        {
+                            "name": "Bootcamp",
+                            "type": "SINGLE_SELECT",
+                            "visibility": "PUBLIC",
+                            "fieldId": "8c8fe9e0-b5d7-4a9c-8baa-0a60a4474651",
+                            "value": {
+                                "fieldOptionId": "1926b86a-e17e-4517-880a-c09738766644",
+                                "name": "Bootcamp",
+                                "__typename": "CustomFieldOptionValue"
+                            },
+                            "__typename": "CustomFieldValueSingleSelect"
+                        }
+                    ],
+                    "package": null,
+                    "price": null,
+                    "room": {
+                        "name": "Mouton",
+                        "venue": {
+                            "name": "Wynn",
+                            "__typename": "Venue"
+                        },
+                        "__typename": "Room"
+                    },
+                    "sessionType": {
+                        "name": "Other",
+                        "__typename": "SessionType"
+                    },
+                    "tracks": [
+                        {
+                            "name": "Training and Certification",
+                            "__typename": "Track"
+                        }
+                    ],
+                    "__typename": "Session"
+                },
+                {
+                    "action": "NO_SEATING",
+                    "alias": "ACT101-R1",
+                    "createdAt": 1634048479580,
+                    "description": "Do you have what it takes to be crowned the ping pong champion and take home a pass to re:Invent 2022? The AWS Ping Pong Tournament returns to re:Invent, with games on Tuesday and Wednesday and the championship round played on Thursday night at the re:Play party! All players must be available to play in the championship round at re:Play on Thursday night if they advance. See the official rules for more information.",
+                    "duration": 180,
+                    "endTime": null,
+                    "eventId": "b84dca69-6995-4e60-bc3f-7bb7a6d170d1",
+                    "isConflicting": {
+                        "reserved": [],
+                        "waitlisted": [],
+                        "__typename": "SessionConflicts"
+                    },
+                    "isEmbargoed": false,
+                    "isFavoritedByMe": false,
+                    "isPaidSession": false,
+                    "level": null,
+                    "location": null,
+                    "myReservationStatus": "NONE",
+                    "name": "AWS Ping Pong Tournament A, group 1",
+                    "sessionId": "32487d58-6db6-4c7b-989e-3f80487dcc4a",
+                    "startTime": 1638309600000,
+                    "status": "published",
+                    "type": "breakout",
+                    "capacities": {
+                        "reservableRemaining": 0,
+                        "waitlistRemaining": -1,
+                        "__typename": "SessionCapacity"
+                    },
+                    "customFieldDetails": [],
+                    "package": null,
+                    "price": null,
+                    "room": {
+                        "name": null,
+                        "venue": null,
+                        "__typename": "Room"
+                    },
+                    "sessionType": {
+                        "name": "Quirky Event",
+                        "__typename": "SessionType"
+                    },
+                    "tracks": [],
+                    "__typename": "Session"
+                },
+                {
+                    "action": "NO_SEATING",
+                    "alias": "ACT101-R2",
+                    "createdAt": 1634048582787,
+                    "description": "Do you have what it takes to be crowned the ping pong champion and take home a pass to re:Invent 2022? The AWS Ping Pong Tournament returns to re:Invent, with games on Tuesday and Wednesday and the championship round played on Thursday night at the re:Play party! All players must be available to play in the championship round at re:Play on Thursday night if they advance. See the official rules for more information.",
+                    "duration": 160,
+                    "endTime": null,
+                    "eventId": "b84dca69-6995-4e60-bc3f-7bb7a6d170d1",
+                    "isConflicting": {
+                        "reserved": [],
+                        "waitlisted": [],
+                        "__typename": "SessionConflicts"
+                    },
+                    "isEmbargoed": false,
+                    "isFavoritedByMe": false,
+                    "isPaidSession": false,
+                    "level": null,
+                    "location": null,
+                    "myReservationStatus": "NONE",
+                    "name": "AWS Ping Pong Tournament A, group 2",
+                    "sessionId": "c7cc750c-fc3a-4d4c-9066-1a3c86bd5811",
+                    "startTime": 1638310800000,
+                    "status": "published",
+                    "type": "breakout",
+                    "capacities": {
+                        "reservableRemaining": 0,
+                        "waitlistRemaining": -1,
+                        "__typename": "SessionCapacity"
+                    },
+                    "customFieldDetails": [],
+                    "package": null,
+                    "price": null,
+                    "room": {
+                        "name": null,
+                        "venue": null,
+                        "__typename": "Room"
+                    },
+                    "sessionType": {
+                        "name": "Quirky Event",
+                        "__typename": "SessionType"
+                    },
+                    "tracks": [],
+                    "__typename": "Session"
+                },
+                {
+                    "action": "NO_SEATING",
+                    "alias": "ACT101-R3",
+                    "createdAt": 1634049167228,
+                    "description": "Do you have what it takes to be crowned the ping pong champion and take home a pass to re:Invent 2022? The AWS Ping Pong Tournament returns to re:Invent, with games on Tuesday and Wednesday and the championship round played on Thursday night at the re:Play party! All players must be available to play in the championship round at re:Play on Thursday night if they advance. See the official rules for more information.",
+                    "duration": 140,
+                    "endTime": null,
+                    "eventId": "b84dca69-6995-4e60-bc3f-7bb7a6d170d1",
+                    "isConflicting": {
+                        "reserved": [],
+                        "waitlisted": [],
+                        "__typename": "SessionConflicts"
+                    },
+                    "isEmbargoed": false,
+                    "isFavoritedByMe": false,
+                    "isPaidSession": false,
+                    "level": null,
+                    "location": null,
+                    "myReservationStatus": "NONE",
+                    "name": "AWS Ping Pong Tournament A, group 3",
+                    "sessionId": "699794db-a34f-4b4c-980c-38ec11dde0a3",
+                    "startTime": 1638312000000,
+                    "status": "published",
+                    "type": "breakout",
+                    "capacities": {
+                        "reservableRemaining": 0,
+                        "waitlistRemaining": -1,
+                        "__typename": "SessionCapacity"
+                    },
+                    "customFieldDetails": [],
+                    "package": null,
+                    "price": null,
+                    "room": {
+                        "name": null,
+                        "venue": null,
+                        "__typename": "Room"
+                    },
+                    "sessionType": {
+                        "name": "Quirky Event",
+                        "__typename": "SessionType"
+                    },
+                    "tracks": [],
+                    "__typename": "Session"
+                },
+                {
+                    "action": "NO_SEATING",
+                    "alias": "ACT101-R4",
+                    "createdAt": 1634049426956,
+                    "description": "Do you have what it takes to be crowned the ping pong champion and take home a pass to re:Invent 2022? The AWS Ping Pong Tournament returns to re:Invent, with games on Tuesday and Wednesday and the championship round played on Thursday night at the re:Play party! All players must be available to play in the championship round at re:Play on Thursday night if they advance. See the official rules for more information.",
+                    "duration": 120,
+                    "endTime": null,
+                    "eventId": "b84dca69-6995-4e60-bc3f-7bb7a6d170d1",
+                    "isConflicting": {
+                        "reserved": [],
+                        "waitlisted": [],
+                        "__typename": "SessionConflicts"
+                    },
+                    "isEmbargoed": false,
+                    "isFavoritedByMe": false,
+                    "isPaidSession": false,
+                    "level": null,
+                    "location": null,
+                    "myReservationStatus": "NONE",
+                    "name": "AWS Ping Pong Tournament A, group 4",
+                    "sessionId": "e1711419-2323-473c-80ca-3cede1424993",
+                    "startTime": 1638313200000,
+                    "status": "published",
+                    "type": "breakout",
+                    "capacities": {
+                        "reservableRemaining": 0,
+                        "waitlistRemaining": -1,
+                        "__typename": "SessionCapacity"
+                    },
+                    "customFieldDetails": [],
+                    "package": null,
+                    "price": null,
+                    "room": {
+                        "name": null,
+                        "venue": null,
+                        "__typename": "Room"
+                    },
+                    "sessionType": {
+                        "name": "Quirky Event",
+                        "__typename": "SessionType"
+                    },
+                    "tracks": [],
+                    "__typename": "Session"
+                },
+                {
+                    "action": "NO_SEATING",
+                    "alias": "ACT102-R1",
+                    "createdAt": 1634049346009,
+                    "description": "Do you have what it takes to be crowned the ping pong champion and take home a pass to re:Invent 2022? The AWS Ping Pong Tournament returns to re:Invent, with games on Tuesday and Wednesday and the championship round played on Thursday night at the re:Play party! All players must be available to play in the championship round at re:Play on Thursday night if they advance. See the official rules for more information.",
+                    "duration": 180,
+                    "endTime": null,
+                    "eventId": "b84dca69-6995-4e60-bc3f-7bb7a6d170d1",
+                    "isConflicting": {
+                        "reserved": [],
+                        "waitlisted": [],
+                        "__typename": "SessionConflicts"
+                    },
+                    "isEmbargoed": false,
+                    "isFavoritedByMe": false,
+                    "isPaidSession": false,
+                    "level": null,
+                    "location": null,
+                    "myReservationStatus": "NONE",
+                    "name": "AWS Ping Pong Tournament B, group 1",
+                    "sessionId": "44c87a16-0750-466f-8e50-28f6ab0cc086",
+                    "startTime": 1638320400000,
+                    "status": "published",
+                    "type": "breakout",
+                    "capacities": {
+                        "reservableRemaining": 0,
+                        "waitlistRemaining": -1,
+                        "__typename": "SessionCapacity"
+                    },
+                    "customFieldDetails": [],
+                    "package": null,
+                    "price": null,
+                    "room": {
+                        "name": null,
+                        "venue": null,
+                        "__typename": "Room"
+                    },
+                    "sessionType": {
+                        "name": "Quirky Event",
+                        "__typename": "SessionType"
+                    },
+                    "tracks": [],
+                    "__typename": "Session"
+                },
+                {
+                    "action": "NO_SEATING",
+                    "alias": "ACT102-R2",
+                    "createdAt": 1634049226237,
+                    "description": "Do you have what it takes to be crowned the ping pong champion and take home a pass to re:Invent 2022? The AWS Ping Pong Tournament returns to re:Invent, with games on Tuesday and Wednesday and the championship round played on Thursday night at the re:Play party! All players must be available to play in the championship round at re:Play on Thursday night if they advance. See the official rules for more information.",
+                    "duration": 160,
+                    "endTime": null,
+                    "eventId": "b84dca69-6995-4e60-bc3f-7bb7a6d170d1",
+                    "isConflicting": {
+                        "reserved": [],
+                        "waitlisted": [],
+                        "__typename": "SessionConflicts"
+                    },
+                    "isEmbargoed": false,
+                    "isFavoritedByMe": false,
+                    "isPaidSession": false,
+                    "level": null,
+                    "location": null,
+                    "myReservationStatus": "NONE",
+                    "name": "AWS Ping Pong Tournament B, group 2",
+                    "sessionId": "8da20bb5-c5a3-4422-8e00-9f187ee5bf4f",
+                    "startTime": 1638321600000,
+                    "status": "published",
+                    "type": "breakout",
+                    "capacities": {
+                        "reservableRemaining": 0,
+                        "waitlistRemaining": -1,
+                        "__typename": "SessionCapacity"
+                    },
+                    "customFieldDetails": [],
+                    "package": null,
+                    "price": null,
+                    "room": {
+                        "name": null,
+                        "venue": null,
+                        "__typename": "Room"
+                    },
+                    "sessionType": {
+                        "name": "Quirky Event",
+                        "__typename": "SessionType"
+                    },
+                    "tracks": [],
+                    "__typename": "Session"
+                },
+                {
+                    "action": "NO_SEATING",
+                    "alias": "ACT102-R3",
+                    "createdAt": 1634049197929,
+                    "description": "Do you have what it takes to be crowned the ping pong champion and take home a pass to re:Invent 2022? The AWS Ping Pong Tournament returns to re:Invent, with games on Tuesday and Wednesday and the championship round played on Thursday night at the re:Play party! All players must be available to play in the championship round at re:Play on Thursday night if they advance. See the official rules for more information.",
+                    "duration": 140,
+                    "endTime": null,
+                    "eventId": "b84dca69-6995-4e60-bc3f-7bb7a6d170d1",
+                    "isConflicting": {
+                        "reserved": [],
+                        "waitlisted": [],
+                        "__typename": "SessionConflicts"
+                    },
+                    "isEmbargoed": false,
+                    "isFavoritedByMe": false,
+                    "isPaidSession": false,
+                    "level": null,
+                    "location": null,
+                    "myReservationStatus": "NONE",
+                    "name": "AWS Ping Pong Tournament B, group 3",
+                    "sessionId": "c9f85c88-84e2-44dc-af92-59584b06fee5",
+                    "startTime": 1638322800000,
+                    "status": "published",
+                    "type": "breakout",
+                    "capacities": {
+                        "reservableRemaining": 0,
+                        "waitlistRemaining": -1,
+                        "__typename": "SessionCapacity"
+                    },
+                    "customFieldDetails": [],
+                    "package": null,
+                    "price": null,
+                    "room": {
+                        "name": null,
+                        "venue": null,
+                        "__typename": "Room"
+                    },
+                    "sessionType": {
+                        "name": "Quirky Event",
+                        "__typename": "SessionType"
+                    },
+                    "tracks": [],
+                    "__typename": "Session"
+                },
+                {
+                    "action": "NO_SEATING",
+                    "alias": "ACT102-R4",
+                    "createdAt": 1634048699651,
+                    "description": "Do you have what it takes to be crowned the ping pong champion and take home a pass to re:Invent 2022? The AWS Ping Pong Tournament returns to re:Invent, with games on Tuesday and Wednesday and the championship round played on Thursday night at the re:Play party! All players must be available to play in the championship round at re:Play on Thursday night if they advance. See the official rules for more information.",
+                    "duration": 120,
+                    "endTime": null,
+                    "eventId": "b84dca69-6995-4e60-bc3f-7bb7a6d170d1",
+                    "isConflicting": {
+                        "reserved": [],
+                        "waitlisted": [],
+                        "__typename": "SessionConflicts"
+                    },
+                    "isEmbargoed": false,
+                    "isFavoritedByMe": false,
+                    "isPaidSession": false,
+                    "level": null,
+                    "location": null,
+                    "myReservationStatus": "NONE",
+                    "name": "AWS Ping Pong Tournament B, group 4",
+                    "sessionId": "b7c8fdf5-431f-42d7-9bb0-d11895a70092",
+                    "startTime": 1638309600000,
+                    "status": "published",
+                    "type": "breakout",
+                    "capacities": {
+                        "reservableRemaining": 0,
+                        "waitlistRemaining": -1,
+                        "__typename": "SessionCapacity"
+                    },
+                    "customFieldDetails": [],
+                    "package": null,
+                    "price": null,
+                    "room": {
+                        "name": null,
+                        "venue": null,
+                        "__typename": "Room"
+                    },
+                    "sessionType": {
+                        "name": "Quirky Event",
+                        "__typename": "SessionType"
+                    },
+                    "tracks": [],
+                    "__typename": "Session"
+                }
+            ],
+            "totalCount": 1302,
+            "nextToken": "eyJ0b2tlbiI6IkFZQURlSEJSaTdWbG5LUWhOYTZ5RHg5bktxUUErUUFFQUJWaGQzTXRZM0o1Y0hSdkxYQjFZbXhwWXkxclpYa0FSRUZ3VW5OcmRXc3pVVVIzUnpBMU5sUjNTbWxtVkdWSk1GSTRVMHAyTW5sd1dXMHdkazQ0TDBsTGJuQjVWM1pZVjJ0V1IzTnZSM0puV25GSU5IbzFRMjVOUVQwOUFBOW1hV3gwWlhKcGJtZFFZWEpoYlhNQVFEUmxOamM0TmpGbE1EYzJZalZrWXpObU5tWm1ZekE0TVdKaE0yVmpPR1l6TUdFMU9UbGlNelJrTWpabVlqUXlNMkUyTURjeU1XVTRaVFprWVdRd05qRUFDVzl3WlhKaGRHbHZiZ0FNVEdsemRGTmxjM05wYjI1ekFBWjFjMlZ5U1dRQUpHWXdaRFZsTXpJNExXWXpOakV0TkdRd09TMWlNall3TFRWaFlUbG1PR1JpTURrelpBQUJBQWRoZDNNdGEyMXpBRXRoY200NllYZHpPbXR0Y3pwMWN5MWxZWE4wTFRFNk5ETXhOelEzTXpFMU1EZzBPbXRsZVM4MlpqUmxZelEyWWkwME5HUTBMVFJsTnpJdFlXUXhaQzFrWldKa09ERXdPRFE1TTJNQXVBRUNBUUI0TVJTL0tIL1c4L3cxYzYwOW5VcnZlaG5hbW9TQnJza2h5OWp4L1hCQzZOZ0JsZjdZQ3lkRkVBWWZaUmFwTnJ5bE5BQUFBSDR3ZkFZSktvWklodmNOQVFjR29HOHdiUUlCQURCb0Jna3Foa2lHOXcwQkJ3RXdIZ1lKWUlaSUFXVURCQUV1TUJFRURFLzZpN0tRUGhPSHhHcXhBZ0lCRUlBN2JSaklqZkR6cUdzSUVFWlQyQnJmd2RZdEppaWFNeW4vQlcxMEw2SXBxdUg1Nk5VOGlNcktvcG9JMnR0d21hL3JDWHlUeUxjd0hqUXNwYThDQUFBQUFBd0FBQkFBQUFBQUFBQUFBQUFBQUFBQUZFU3BGaTQ3VnF2T3ByZkg4aUhTWlAvLy8vOEFBQUFCQUFBQUFBQUFBQUFBQUFBQkFBQUFZY0ZsMW01R21oQm82TEwxdmdKYnI4UWVqZ3l1cDVuUHhRd1dCcGlLUmRPWjNOMEduMitrZXJUZDhMTG1XajhGaG1YVlphOVlFMVpYRTF2T3p2TEI4WXVRazN0REtGWlVuaytMbE53U2VzR2R3T0FUakJId3dHY2l4VVNKOW8wZWIyMG0zU2hsUW1YSVYvWGVzdHBEcEltRUFHY3daUUl3SjJ4RUxIci9rR3pSSXdSc3N4eWRybVhVQ1U5ZWFsaGNmVU54cStZclZsbDRIYTB2QXhEazRENEpVWE81UTZ1b0FqRUEvbEJhVnNrUXRNVjRxbjEzZjVqa0gybmRUR2VOYklQcDFGOVNnNGk0bFVKc2JPOXB6dEpXOTVkc1VnOFFnYlNqIiwidmVyc2lvbiI6MX0",
+            "__typename": "ListSessionsOutput"
+        }
+    }
+}
