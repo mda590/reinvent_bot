@@ -7,7 +7,6 @@ class ReinventBot():
     def __init__(self):
         self.dynamodb = boto3.client('dynamodb', region_name='us-east-2')
         self.table_name = SESSION_TABLE
-        self.logging_table_name = LOGGING_TABLE
         self.api = self._connect_to_twitter()
 
     def check_if_new(self, session_number):
@@ -93,24 +92,6 @@ class ReinventBot():
                 }
             },
             TableName=self.table_name)
-
-    def log_execution(self, topic_id, execution_timestamp, status, duration):
-        response = self.dynamodb.put_item(
-            Item={
-                "topic_id": {
-                    'S': topic_id
-                },
-                "execution_timestamp": {
-                    'S': execution_timestamp
-                },
-                "status": {
-                    'S': status
-                },
-                "duration": {
-                    'S': duration
-                }
-            },
-            TableName=self.logging_table_name)
 
     def _connect_to_twitter(self):
         api = twitter.Api(
