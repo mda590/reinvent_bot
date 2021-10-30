@@ -1,4 +1,4 @@
-pycryptodome==3.3.1
+pycryptodome==3.6.6
 python-twitter
 requests
 warrant
