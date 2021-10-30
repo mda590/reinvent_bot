@@ -3,8 +3,8 @@
     {
       "name": "default-role",
       "resource_type": "iam_role",
-      "role_arn": "arn:aws:iam::506666621600:role/reinvent_bot_lambda-dev",
-      "role_name": "reinvent_bot_lambda-dev"
+      "role_arn": "arn:aws:iam::506666621600:role/reinvent_bot_lambda-dev-handler",
+      "role_name": "reinvent_bot_lambda-dev-handler"
     },
     {
       "name": "handler",
