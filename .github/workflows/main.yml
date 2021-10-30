@@ -41,7 +41,9 @@ jobs:
         run: pip install -r ./chalice_deployment/requirements.txt
         
       - name: Set up Config File
-        run: echo ${{ secrets.CONFIG_FILE_VALUES }} >> ./chalice_deployment/chalicelib/config.py
+        env:
+          CONFIG_VALS: ${{secrets.CONFIG_FILE_VALUES}}
+        run: 'echo "$CONFIG_VALS" > ./chalice_deployment/chalicelib/config.py'
 
       - name: Deploy App
         run: cd ./chalice_deployment/ && AWS_ACCESS_KEY_ID=${{ secrets.AWS_ACCESS_KEY_ID }} AWS_SECRET_ACCESS_KEY=${{ secrets.AWS_SECRET_ACCESS_KEY }} AWS_DEFAULT_REGION=us-east-2 chalice deploy
