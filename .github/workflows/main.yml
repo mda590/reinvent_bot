@@ -38,7 +38,7 @@ jobs:
         run: pip install chalice
 
       - name: Install Requirements
-        run: pip install -r requirements.txt
+        run: pip install -r ./chalice_deployment/requirements.txt
 
       - name: Deploy App
-        run: AWS_ACCESS_KEY_ID=${{ secrets.AWS_ACCESS_KEY_ID }} AWS_SECRET_ACCESS_KEY=${{ secrets.AWS_SECRET_ACCESS_KEY }} AWS_DEFAULT_REGION=us-east-2 chalice deploy
+        run: cd ./chalice_deployment/ && AWS_ACCESS_KEY_ID=${{ secrets.AWS_ACCESS_KEY_ID }} AWS_SECRET_ACCESS_KEY=${{ secrets.AWS_SECRET_ACCESS_KEY }} AWS_DEFAULT_REGION=us-east-2 chalice deploy
