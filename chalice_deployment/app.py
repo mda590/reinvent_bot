@@ -11,7 +11,7 @@ import requests
 
 app = Chalice(app_name='reinvent_bot_lambda')
 
-@app.schedule(Cron("*", "*", "*", "*", "?", "*"))
+@app.schedule(Cron("0", "*", "*", "*", "?", "*"))
 def handler(event):
     BOT_MODE = os.getenv('REINVENT_BOT_MODE', 'False')
     BOT_MODE = True if BOT_MODE == 'True' else False
