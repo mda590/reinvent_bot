@@ -3,7 +3,10 @@
   "app_name": "reinvent_bot_lambda",
   "xray": true,
   "autogen_policy": false,
-  "environment_variables": {},
+  "environment_variables": {
+    "REINVENT_BOT_MODE": "True",
+    "REINVENT_TWEET": "True"
+  },
   "lambda_memory_size": 128,
   "lambda_timeout": 120
 }
