@@ -1,0 +1,9 @@
+{
+  "version": "2.0",
+  "app_name": "reinvent_bot_lambda",
+  "xray": true,
+  "autogen_policy": false,
+  "environment_variables": {},
+  "lambda_memory_size": 128,
+  "lambda_timeout": 120
+}

@@ -3,3 +3,5 @@ cognito_test.py
 build.sh
 *.csv
 .DS_STORE
+chalice_deployment/.chalice/deployments/
+chalice_deployment/.chalice/venv/
